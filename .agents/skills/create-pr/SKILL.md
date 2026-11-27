@@ -44,6 +44,6 @@ Use this skill when the user asks to create a PR when requested (e.g. "create pr
     - **Title** mirrors the commit subject: `<imperative summary>`.
     - **Body** is terse and to the point: a few sentences or bullet points covering what changed and why.
     - The title and body must reflect ALL changes, not just a subset.
-    - Do NOT add any footer like "Made with Cursor" or similar — keep the body clean.
+    - Do NOT add any footer like "Made with Agent" or similar — keep the body clean.
 
 5. **Return the PR URL** to the user. Suggest to use `gh pr merge` when approved and checks are passing.
